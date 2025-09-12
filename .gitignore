@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output folder
+/bin/
+/build/
+/dist/
+
+# Go workspace file
+go.work
+
+# IDE/Editor
+.vscode/
+.idea/

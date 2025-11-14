@@ -12,7 +12,7 @@ func main() {
 
 	addres2.City = "Bandung"
 	fmt.Println(addres1) // Ikut berubah
-	fmt.Println(addres2) // data yang berubah
+	fmt.Println(addres2) // data yang berubah, maka data awal berubah juga
 
 	*addres2 = Addres{"Banjar","kalsel","Indonesia"}
 	fmt.Println(addres1)
